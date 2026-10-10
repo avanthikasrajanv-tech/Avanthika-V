@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="googleDarkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#0d1424"/>
+      <stop offset="100%" stop-color="#141e33"/>
+    </linearGradient>
+    <linearGradient id="gBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4285f4"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#googleDarkBg)"/>
+
+  <!-- Glowing accents -->
+  <circle cx="150" cy="120" r="130" fill="#4285f4" opacity="0.12"/>
+  <circle cx="680" cy="300" r="140" fill="#34a853" opacity="0.1"/>
+
+  <!-- Google Ads Dashboard Card -->
+  <rect x="70" y="45" width="660" height="360" rx="16" fill="#111827" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <rect x="70" y="45" width="660" height="46" rx="16" fill="#1a2234"/>
+  <!-- Google Ads 4-color mini bars -->
+  <rect x="95" y="60" width="6" height="16" rx="3" fill="#4285f4"/>
+  <rect x="104" y="60" width="6" height="16" rx="3" fill="#ea4335"/>
+  <rect x="113" y="60" width="6" height="16" rx="3" fill="#fbbc05"/>
+  <rect x="122" y="60" width="6" height="16" rx="3" fill="#34a853"/>
+  
+  <text x="140" y="73" font-family="system-ui, sans-serif" font-size="14" fill="#f9fafb" font-weight="700">Google Ads — Search Network Campaign</text>
+  <rect x="580" y="58" width="130" height="22" rx="11" fill="#4285f4" fill-opacity="0.2"/>
+  <text x="645" y="73" font-family="system-ui, sans-serif" font-size="9" fill="#93c5fd" font-weight="600" text-anchor="middle">High Intent Keywords</text>
+
+  <!-- Top Metrics Bar -->
+  <g transform="translate(95, 105)">
+    <!-- Metric 1: Clicks -->
+    <rect x="0" y="0" width="140" height="65" rx="8" fill="#182236" stroke="rgba(255,255,255,0.06)"/>
+    <text x="14" y="20" font-family="system-ui, sans-serif" font-size="10" fill="#9ca3af">Clicks</text>
+    <text x="14" y="44" font-family="system-ui, sans-serif" font-size="20" fill="#fff" font-weight="bold">3,420</text>
+    <text x="90" y="44" font-family="system-ui, sans-serif" font-size="10" fill="#34d399">+18.4%</text>
+
+    <!-- Metric 2: Impressions -->
+    <rect x="155" y="0" width="140" height="65" rx="8" fill="#182236" stroke="rgba(255,255,255,0.06)"/>
+    <text x="169" y="20" font-family="system-ui, sans-serif" font-size="10" fill="#9ca3af">Impressions</text>
+    <text x="169" y="44" font-family="system-ui, sans-serif" font-size="20" fill="#fff" font-weight="bold">48,900</text>
+    <text x="250" y="44" font-family="system-ui, sans-serif" font-size="10" fill="#60a5fa">Top 10%</text>
+
+    <!-- Metric 3: Avg CPC -->
+    <rect x="310" y="0" width="140" height="65" rx="8" fill="#182236" stroke="rgba(255,255,255,0.06)"/>
+    <text x="324" y="20" font-family="system-ui, sans-serif" font-size="10" fill="#9ca3af">Avg. CPC</text>
+    <text x="324" y="44" font-family="system-ui, sans-serif" font-size="20" fill="#f59e0b" font-weight="bold">₹14.20</text>
+    <text x="400" y="44" font-family="system-ui, sans-serif" font-size="10" fill="#34d399">-22% cost</text>
+
+    <!-- Metric 4: Quality Score -->
+    <rect x="465" y="0" width="145" height="65" rx="8" fill="#182236" stroke="rgba(255,255,255,0.06)"/>
+    <text x="479" y="20" font-family="system-ui, sans-serif" font-size="10" fill="#9ca3af">Quality Score</text>
+    <text x="479" y="44" font-family="system-ui, sans-serif" font-size="20" fill="#34d399" font-weight="bold">9 / 10</text>
+    <text x="560" y="44" font-family="system-ui, sans-serif" font-size="10" fill="#34d399">Excellent</text>
+  </g>
+
+  <!-- Google Search Result Ad Simulation -->
+  <g transform="translate(95, 185)">
+    <rect width="610" height="95" rx="10" fill="#151d2f" stroke="rgba(66, 133, 244, 0.4)" stroke-width="1.2"/>
+    <text x="18" y="24" font-family="system-ui, sans-serif" font-size="11" fill="#fff" font-weight="bold">Ad Preview — Google SERP</text>
+    
+    <rect x="18" y="34" width="28" height="15" rx="3" fill="#fff" fill-opacity="0.1"/>
+    <text x="23" y="45" font-family="system-ui, sans-serif" font-size="9" fill="#93c5fd" font-weight="bold">Ad</text>
+    <text x="52" y="45" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">https://example.com/services/digital-marketing</text>
+    
+    <text x="18" y="68" font-family="system-ui, sans-serif" font-size="14" fill="#60a5fa" font-weight="600">Grow Your Business Fast | Data-Driven Search Campaigns</text>
+    <text x="18" y="84" font-family="system-ui, sans-serif" font-size="10" fill="#cbd5e1">Reach high-intent customers right when they search. Target exact search terms with high conversion rates.</text>
+  </g>
+
+  <!-- Keyword Table Mockup -->
+  <g transform="translate(95, 295)">
+    <rect width="610" height="95" rx="10" fill="#151d2f" stroke="rgba(255,255,255,0.06)"/>
+    <text x="18" y="20" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8" font-weight="bold">TOP TARGETED SEARCH KEYWORDS</text>
+    <text x="280" y="20" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8" font-weight="bold">MATCH TYPE</text>
+    <text x="420" y="20" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8" font-weight="bold">CTR</text>
+    <text x="530" y="20" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8" font-weight="bold">CONV. RATE</text>
+    
+    <line x1="18" y1="28" x2="590" y2="28" stroke="rgba(255,255,255,0.08)"/>
+
+    <text x="18" y="46" font-family="system-ui, sans-serif" font-size="11" fill="#fff">"best digital marketing services"</text>
+    <rect x="280" y="35" width="70" height="15" rx="3" fill="#3b82f6" fill-opacity="0.2"/>
+    <text x="315" y="46" font-family="system-ui, sans-serif" font-size="9" fill="#93c5fd" text-anchor="middle">Phrase Match</text>
+    <text x="420" y="46" font-family="system-ui, sans-serif" font-size="11" fill="#34d399" font-weight="600">8.42%</text>
+    <text x="530" y="46" font-family="system-ui, sans-serif" font-size="11" fill="#fff" font-weight="bold">14.6%</text>
+
+    <line x1="18" y1="56" x2="590" y2="56" stroke="rgba(255,255,255,0.05)"/>
+
+    <text x="18" y="74" font-family="system-ui, sans-serif" font-size="11" fill="#fff">[digital marketing consultant in calicut]</text>
+    <rect x="280" y="63" width="70" height="15" rx="3" fill="#10b981" fill-opacity="0.2"/>
+    <text x="315" y="74" font-family="system-ui, sans-serif" font-size="9" fill="#34d399" text-anchor="middle">Exact Match</text>
+    <text x="420" y="74" font-family="system-ui, sans-serif" font-size="11" fill="#34d399" font-weight="600">11.80%</text>
+    <text x="530" y="74" font-family="system-ui, sans-serif" font-size="11" fill="#fff" font-weight="bold">19.2%</text>
+  </g>
+</svg>

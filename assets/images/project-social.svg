@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#161233"/>
+    </linearGradient>
+    <linearGradient id="instaGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f58529"/>
+      <stop offset="30%" stop-color="#dd2a7b"/>
+      <stop offset="60%" stop-color="#8134af"/>
+      <stop offset="100%" stop-color="#515bd4"/>
+    </linearGradient>
+    <linearGradient id="purpleCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid lines -->
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+    <line x1="50" y1="0" x2="50" y2="450"/>
+    <line x1="150" y1="0" x2="150" y2="450"/>
+    <line x1="250" y1="0" x2="250" y2="450"/>
+    <line x1="350" y1="0" x2="350" y2="450"/>
+    <line x1="450" y1="0" x2="450" y2="450"/>
+    <line x1="550" y1="0" x2="550" y2="450"/>
+    <line x1="650" y1="0" x2="650" y2="450"/>
+    <line x1="750" y1="0" x2="750" y2="450"/>
+    <line x1="0" y1="60" x2="800" y2="60"/>
+    <line x1="0" y1="140" x2="800" y2="140"/>
+    <line x1="0" y1="220" x2="800" y2="220"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="380" x2="800" y2="380"/>
+  </g>
+
+  <!-- Glowing background orbs -->
+  <circle cx="240" cy="220" r="120" fill="#ec4899" opacity="0.12" filter="url(#glow)"/>
+  <circle cx="560" cy="180" r="140" fill="#8b5cf6" opacity="0.15" filter="url(#glow)"/>
+
+  <!-- Main Mobile Frame -->
+  <rect x="270" y="45" width="260" height="360" rx="32" fill="#0d111b" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+  <rect x="350" y="55" width="100" height="14" rx="7" fill="#1f2937"/>
+  
+  <!-- Mobile Screen Content: Social Media Profile & Campaign -->
+  <g transform="translate(285, 80)">
+    <!-- Header -->
+    <circle cx="20" cy="20" r="16" fill="url(#instaGrad)"/>
+    <circle cx="20" cy="20" r="14" fill="#0d111b"/>
+    <circle cx="20" cy="20" r="11" fill="url(#purpleCyan)"/>
+    <rect x="45" y="10" width="80" height="8" rx="4" fill="#f3f4f6"/>
+    <rect x="45" y="24" width="50" height="6" rx="3" fill="#9ca3af"/>
+    <rect x="180" y="12" width="45" height="18" rx="9" fill="url(#purpleCyan)"/>
+    <text x="202" y="24" font-family="system-ui, sans-serif" font-size="8" fill="#fff" text-anchor="middle" font-weight="bold">Follow</text>
+
+    <!-- Stats row -->
+    <rect x="5" y="48" width="220" height="32" rx="8" fill="#151b28" stroke="rgba(255,255,255,0.06)"/>
+    <text x="40" y="65" font-family="system-ui, sans-serif" font-size="11" fill="#fff" text-anchor="middle" font-weight="bold">42.5K</text>
+    <text x="40" y="74" font-family="system-ui, sans-serif" font-size="7" fill="#9ca3af" text-anchor="middle">Reach</text>
+    
+    <text x="115" y="65" font-family="system-ui, sans-serif" font-size="11" fill="#06b6d4" text-anchor="middle" font-weight="bold">+148%</text>
+    <text x="115" y="74" font-family="system-ui, sans-serif" font-size="7" fill="#9ca3af" text-anchor="middle">Engagement</text>
+    
+    <text x="185" y="65" font-family="system-ui, sans-serif" font-size="11" fill="#ec4899" text-anchor="middle" font-weight="bold">18.2K</text>
+    <text x="185" y="74" font-family="system-ui, sans-serif" font-size="7" fill="#9ca3af" text-anchor="middle">Interactions</text>
+
+    <!-- Content Story Bubbles -->
+    <circle cx="20" cy="98" r="14" fill="none" stroke="url(#instaGrad)" stroke-width="2"/>
+    <circle cx="20" cy="98" r="11" fill="#374151"/>
+    <circle cx="58" cy="98" r="14" fill="none" stroke="url(#instaGrad)" stroke-width="2"/>
+    <circle cx="58" cy="98" r="11" fill="#374151"/>
+    <circle cx="96" cy="98" r="14" fill="none" stroke="url(#instaGrad)" stroke-width="2"/>
+    <circle cx="96" cy="98" r="11" fill="#374151"/>
+    <circle cx="134" cy="98" r="14" fill="none" stroke="url(#instaGrad)" stroke-width="2"/>
+    <circle cx="134" cy="98" r="11" fill="#374151"/>
+    <circle cx="172" cy="98" r="14" fill="none" stroke="url(#instaGrad)" stroke-width="2"/>
+    <circle cx="172" cy="98" r="11" fill="#374151"/>
+
+    <!-- Campaign Grid Posts -->
+    <rect x="5" y="125" width="68" height="80" rx="6" fill="#1f293d"/>
+    <rect x="80" y="125" width="68" height="80" rx="6" fill="#241d3d"/>
+    <rect x="155" y="125" width="68" height="80" rx="6" fill="#192a3d"/>
+
+    <path d="M 12 185 Q 35 155, 60 170" stroke="#06b6d4" stroke-width="2" fill="none"/>
+    <path d="M 87 185 Q 110 145, 140 160" stroke="#ec4899" stroke-width="2" fill="none"/>
+    <path d="M 162 185 Q 185 150, 215 165" stroke="#8b5cf6" stroke-width="2" fill="none"/>
+
+    <rect x="5" y="215" width="68" height="75" rx="6" fill="#232b38"/>
+    <rect x="80" y="215" width="68" height="75" rx="6" fill="#1e2230"/>
+    <rect x="155" y="215" width="68" height="75" rx="6" fill="#2d1e38"/>
+  </g>
+
+  <!-- Floating Left Card: Engagement Spike -->
+  <g transform="translate(60, 110)">
+    <rect width="180" height="110" rx="14" fill="#0f172a" fill-opacity="0.9" stroke="rgba(139, 92, 246, 0.4)" stroke-width="1.5"/>
+    <circle cx="30" cy="30" r="14" fill="#ec4899" fill-opacity="0.2"/>
+    <text x="30" y="35" font-family="system-ui, sans-serif" font-size="14" fill="#ec4899" text-anchor="middle">❤️</text>
+    <text x="56" y="26" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold">Viral Reach</text>
+    <text x="56" y="40" font-family="system-ui, sans-serif" font-size="9" fill="#9ca3af">Reels & Carousel Post</text>
+    
+    <path d="M 20 85 C 50 65, 80 90, 120 55 C 140 45, 155 50, 160 40" fill="none" stroke="#ec4899" stroke-width="3" stroke-linecap="round"/>
+    <text x="20" y="98" font-family="system-ui, sans-serif" font-size="10" fill="#34d399" font-weight="bold">+210% Organic Shares</text>
+  </g>
+
+  <!-- Floating Right Card: Content Strategy Calendar -->
+  <g transform="translate(560, 210)">
+    <rect width="180" height="120" rx="14" fill="#0f172a" fill-opacity="0.9" stroke="rgba(6, 182, 212, 0.4)" stroke-width="1.5"/>
+    <circle cx="30" cy="30" r="14" fill="#06b6d4" fill-opacity="0.2"/>
+    <text x="30" y="35" font-family="system-ui, sans-serif" font-size="14" fill="#06b6d4" text-anchor="middle">📅</text>
+    <text x="56" y="26" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold">Content Calendar</text>
+    <text x="56" y="40" font-family="system-ui, sans-serif" font-size="9" fill="#9ca3af">Scheduled & Optimized</text>
+
+    <!-- Mini Calendar bars -->
+    <rect x="20" y="60" width="140" height="12" rx="4" fill="#1e293b"/>
+    <rect x="20" y="60" width="95" height="12" rx="4" fill="url(#purpleCyan)"/>
+    <text x="165" y="70" font-family="system-ui, sans-serif" font-size="8" fill="#a5b4fc" text-anchor="end">75% posted</text>
+
+    <rect x="20" y="80" width="65" height="22" rx="6" fill="#3b82f6" fill-opacity="0.2"/>
+    <text x="52" y="95" font-family="system-ui, sans-serif" font-size="9" fill="#60a5fa" text-anchor="middle" font-weight="600">30 Days</text>
+
+    <rect x="95" y="80" width="65" height="22" rx="6" fill="#10b981" fill-opacity="0.2"/>
+    <text x="127" y="95" font-family="system-ui, sans-serif" font-size="9" fill="#34d399" text-anchor="middle" font-weight="600">High Impact</text>
+  </g>
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="webDarkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#191938"/>
+    </linearGradient>
+    <linearGradient id="cyanBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#webDarkBg)"/>
+
+  <!-- Glowing background elements -->
+  <circle cx="280" cy="200" r="150" fill="#06b6d4" opacity="0.12"/>
+  <circle cx="620" cy="220" r="140" fill="#8b5cf6" opacity="0.12"/>
+
+  <!-- Desktop Browser Mockup Frame -->
+  <g transform="translate(60, 45)">
+    <!-- Browser window -->
+    <rect width="480" height="310" rx="12" fill="#131a29" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
+    <!-- Window top bar -->
+    <rect width="480" height="34" rx="12" fill="#192236"/>
+    <circle cx="20" cy="17" r="4.5" fill="#ef4444"/>
+    <circle cx="34" cy="17" r="4.5" fill="#f59e0b"/>
+    <circle cx="48" cy="17" r="4.5" fill="#10b981"/>
+    <!-- Address bar -->
+    <rect x="75" y="8" width="280" height="18" rx="9" fill="#0b0f19"/>
+    <text x="90" y="21" font-family="system-ui, sans-serif" font-size="9" fill="#94a3b8">🔒 https://modernbrand.com/landing-page</text>
+
+    <!-- Page Content Inside Browser -->
+    <rect x="25" y="55" width="210" height="18" rx="4" fill="url(#cyanBlueGrad)"/>
+    <rect x="25" y="82" width="280" height="8" rx="3" fill="#cbd5e1"/>
+    <rect x="25" y="96" width="240" height="8" rx="3" fill="#94a3b8"/>
+    
+    <!-- CTA button mockup -->
+    <rect x="25" y="116" width="100" height="26" rx="6" fill="#8b5cf6"/>
+    <text x="75" y="133" font-family="system-ui, sans-serif" font-size="10" fill="#fff" font-weight="bold" text-anchor="middle">Book Call Now</text>
+
+    <!-- Content cards row inside webpage -->
+    <rect x="25" y="160" width="125" height="120" rx="8" fill="#1c2538"/>
+    <circle cx="50" cy="185" r="14" fill="#06b6d4" fill-opacity="0.2"/>
+    <text x="50" y="190" font-family="system-ui, sans-serif" font-size="14" fill="#06b6d4" text-anchor="middle">🚀</text>
+    <rect x="35" y="210" width="85" height="8" rx="3" fill="#f8fafc"/>
+    <rect x="35" y="225" width="105" height="5" rx="2" fill="#64748b"/>
+    <rect x="35" y="235" width="90" height="5" rx="2" fill="#64748b"/>
+
+    <rect x="165" y="160" width="125" height="120" rx="8" fill="#1c2538"/>
+    <circle cx="190" cy="185" r="14" fill="#8b5cf6" fill-opacity="0.2"/>
+    <text x="190" y="190" font-family="system-ui, sans-serif" font-size="14" fill="#8b5cf6" text-anchor="middle">📊</text>
+    <rect x="175" y="210" width="85" height="8" rx="3" fill="#f8fafc"/>
+    <rect x="175" y="225" width="105" height="5" rx="2" fill="#64748b"/>
+    <rect x="175" y="235" width="90" height="5" rx="2" fill="#64748b"/>
+
+    <rect x="305" y="160" width="150" height="120" rx="8" fill="#1c2538"/>
+    <circle cx="330" cy="185" r="14" fill="#10b981" fill-opacity="0.2"/>
+    <text x="330" y="190" font-family="system-ui, sans-serif" font-size="14" fill="#10b981" text-anchor="middle">⚡</text>
+    <rect x="315" y="210" width="90" height="8" rx="3" fill="#f8fafc"/>
+    <rect x="315" y="225" width="125" height="5" rx="2" fill="#64748b"/>
+    <rect x="315" y="235" width="110" height="5" rx="2" fill="#64748b"/>
+  </g>
+
+  <!-- Mobile Mockup Floating on Right -->
+  <g transform="translate(565, 80)">
+    <rect width="170" height="310" rx="24" fill="#0d111b" stroke="rgba(6, 182, 212, 0.4)" stroke-width="2"/>
+    <rect x="50" y="10" width="70" height="12" rx="6" fill="#1f2937"/>
+    
+    <!-- Mobile Screen UI -->
+    <rect x="15" y="35" width="140" height="25" rx="5" fill="#1e293b"/>
+    <rect x="25" y="44" width="70" height="7" rx="3" fill="#38bdf8"/>
+    
+    <!-- Hero on mobile -->
+    <rect x="15" y="70" width="140" height="75" rx="6" fill="url(#purpleGrad2)"/>
+    <text x="85" y="105" font-family="system-ui, sans-serif" font-size="10" fill="#fff" font-weight="bold" text-anchor="middle">Mobile-Optimized</text>
+    <text x="85" y="120" font-family="system-ui, sans-serif" font-size="8" fill="#e9d5ff" text-anchor="middle">Fast Load Speed</text>
+
+    <!-- Mobile CTA -->
+    <rect x="15" y="155" width="140" height="30" rx="6" fill="#06b6d4"/>
+    <text x="85" y="174" font-family="system-ui, sans-serif" font-size="10" fill="#0f172a" font-weight="bold" text-anchor="middle">Contact Us Today</text>
+
+    <!-- Mobile Mini Card -->
+    <rect x="15" y="195" width="140" height="85" rx="6" fill="#1e293b"/>
+    <rect x="25" y="208" width="60" height="6" rx="3" fill="#cbd5e1"/>
+    <rect x="25" y="220" width="110" height="5" rx="2" fill="#64748b"/>
+    <rect x="25" y="230" width="100" height="5" rx="2" fill="#64748b"/>
+    <rect x="25" y="248" width="80" height="18" rx="4" fill="#3b82f6"/>
+    <text x="65" y="260" font-family="system-ui, sans-serif" font-size="8" fill="#fff" text-anchor="middle">View Offer</text>
+  </g>
+
+  <!-- Audit Badge Indicator Floating -->
+  <g transform="translate(380, 310)">
+    <rect width="180" height="75" rx="12" fill="#0f172a" fill-opacity="0.95" stroke="rgba(16, 185, 129, 0.5)" stroke-width="1.5"/>
+    <circle cx="38" cy="38" r="24" fill="none" stroke="#10b981" stroke-width="4"/>
+    <text x="38" y="44" font-family="system-ui, sans-serif" font-size="16" fill="#10b981" font-weight="900" text-anchor="middle">98</text>
+    <text x="75" y="30" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold">SEO & Speed Score</text>
+    <text x="75" y="46" font-family="system-ui, sans-serif" font-size="9" fill="#34d399">Google Lighthouse Audit</text>
+    <text x="75" y="58" font-family="system-ui, sans-serif" font-size="9" fill="#94a3b8">High Conversion Structure</text>
+  </g>
+</svg>
